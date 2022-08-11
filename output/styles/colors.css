@@ -1,0 +1,34 @@
+:root {
+  /* COLOR */
+  --alert: rgb(250, 77, 86);
+  --alert-dark: rgb(73, 18, 22);
+  --alert-mid: rgb(102, 25, 29);
+  --artboard: rgb(53, 53, 53);
+  --background: rgb(0, 4, 13);
+  --background-level-2: rgb(18, 20, 22);
+  --background-level-3: rgb(28, 30, 34);
+  --background-overlay-50: rgba(0, 4, 13, 0.5);
+  --background-overlay-70: rgba(0, 4, 13, 0.7);
+  --disable: rgb(85, 88, 94);
+  --divider: rgb(38, 40, 46);
+  --live: rgb(210, 33, 39);
+  --news-gray-b-9: rgb(185, 187, 194);
+  --news-primary-text: rgb(0, 4, 13);
+  --primary: rgb(15, 98, 254);
+  --primary-dark: rgb(0, 80, 229);
+  --primary-dark-blue: rgb(9, 35, 83);
+  --primary-dark-blue-light: rgb(25, 51, 102);
+  --primary-light: rgb(205, 222, 254);
+  --primary-text: rgb(242, 246, 253);
+  --quaternary-text: rgb(216, 219, 226);
+  --secondary-text: rgb(123, 126, 133);
+  --sub-background: rgb(52, 55, 61);
+  --success: rgb(36, 178, 76);
+  --tertiary-text: rgb(185, 187, 194);
+  --content-ticket-yellow: rgb(255, 220, 0);
+  --content-green-program: rgb(2, 217, 127);
+  --content-light-blue-special: rgb(51, 206, 255);
+  --content-red-series: rgb(185, 26, 32);
+  --content-violet-fandom: rgb(83, 63, 205);
+  --content-yellow-music: rgb(255, 208, 7);
+}
