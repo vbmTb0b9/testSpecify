@@ -1,1 +1,71 @@
-[]
+@font-face {
+  font-family: "DBHeavent";
+  src: url("../fonts/DBHeavent.woff") format("woff"),
+    url("../fonts/DBHeavent.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DBHeavent-Med";
+  src: url("../fonts/DBHeavent-Med.woff") format("woff"),
+    url("../fonts/DBHeavent-Med.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GraphikThaiLoop-Medium";
+  src: url("../fonts/GraphikThaiLoop-Medium.woff") format("woff"),
+    url("../fonts/GraphikThaiLoop-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GraphikThaiLoop-Regular";
+  src: url("../fonts/GraphikThaiLoop-Regular.woff") format("woff"),
+    url("../fonts/GraphikThaiLoop-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GraphikThaiLoop-Semibold";
+  src: url("../fonts/GraphikThaiLoop-Semibold.woff") format("woff"),
+    url("../fonts/GraphikThaiLoop-Semibold.woff2") format("woff2");
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GraphikTH-Bold";
+  src: url("../fonts/GraphikTH-Bold.woff") format("woff"),
+    url("../fonts/GraphikTH-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GraphikTH-Medium";
+  src: url("../fonts/GraphikTH-Medium.woff") format("woff"),
+    url("../fonts/GraphikTH-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GraphikTH-Regular";
+  src: url("../fonts/GraphikTH-Regular.woff") format("woff"),
+    url("../fonts/GraphikTH-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GraphikTH-Semibold";
+  src: url("../fonts/GraphikTH-Semibold.woff") format("woff"),
+    url("../fonts/GraphikTH-Semibold.woff2") format("woff2");
+  font-weight: 600;
+  font-display: swap;
+}
