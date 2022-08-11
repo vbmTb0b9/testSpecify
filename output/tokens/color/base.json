@@ -1,0 +1,37 @@
+{
+  "color": {
+    "base": {
+      "tertiaryText": { "value": "#b9bbc2" },
+      "success": { "value": "#24b24c" },
+      "subBackground": { "value": "#34373d" },
+      "secondaryText": { "value": "#7b7e85" },
+      "quaternaryText": { "value": "#d8dbe2" },
+      "primaryText": { "value": "#f2f6fd" },
+      "primaryLight": { "value": "#cddefe" },
+      "primaryDarkBlueLight": { "value": "#193366" },
+      "primaryDarkBlue": { "value": "#092353" },
+      "primaryDark": { "value": "#0050e5" },
+      "primary": { "value": "#0f62fe" },
+      "newsPrimaryText": { "value": "#00040d" },
+      "newsGrayB9": { "value": "#b9bbc2" },
+      "live": { "value": "#d22127" },
+      "divider": { "value": "#26282e" },
+      "disable": { "value": "#55585e" },
+      "contentYellowMusic": { "value": "#ffd007" },
+      "contentVioletFandom": { "value": "#533fcd" },
+      "contentTicketYellow": { "value": "#ffdc00" },
+      "contentRedSeries": { "value": "#b91a20" },
+      "contentLightBlueSpecial": { "value": "#33ceff" },
+      "contentGreenProgram": { "value": "#02d97f" },
+      "backgroundOverlay70": { "value": "#00040d" },
+      "backgroundOverlay50": { "value": "#00040d" },
+      "backgroundLevel3": { "value": "#1c1e22" },
+      "backgroundLevel2": { "value": "#121416" },
+      "background": { "value": "#00040d" },
+      "artboard": { "value": "#353535" },
+      "alertMid": { "value": "#66191d" },
+      "alertDark": { "value": "#491216" },
+      "alert": { "value": "#fa4d56" }
+    }
+  }
+}
