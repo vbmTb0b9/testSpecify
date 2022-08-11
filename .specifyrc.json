@@ -4,98 +4,39 @@
   "base": "main",
   "rules": [
     {
-      "name": "Design Tokens / Colors",
-      "path": "./output/styles/colors.css",
+      "name": "Design Tokens",
+      "path": "./output/tokens",
       "filter": {
         "types": [
-          "color"
+          "color",
+          "font",
+          "vector"
         ]
       },
       "parsers": [
         {
-          "name": "sort-by",
+          "name": "to-style-dictionary",
           "options": {
-            "keys": [
-              "name"
-            ]
-          }
-        },
-        {
-          "name": "to-css-custom-properties",
-          "options": {
-            "formatName": "kebabCase"
+            "formatTokens": {
+              "fontFormat": [
+                "woff",
+                "woff2"
+              ],
+              "colorFormat": {
+                "format": "hex"
+              }
+            },
+            "assetsBaseDirectory": {
+              "fonts": "../../assets/fonts",
+              "icons": "../../assets/fonts"
+            }
           }
         }
       ]
     },
     {
-      "name": "Design Tokens / Text Styles",
-      "path": "./output/styles/text-styles.css",
-      "filter": {
-        "types": [
-          "textStyle"
-        ]
-      },
-      "parsers": [
-        {
-          "name": "to-css-text-style",
-          "options": {
-            "exclude": [
-              "color",
-              "text-indent",
-              "vertical-align",
-              "text-align"
-            ],
-            "relativeLineHeight": true,
-            "genericFamily": "serif"
-          }
-        }
-      ]
-    },
-    {
-      "name": "Design Tokens / Import font files in CSS",
-      "path": "./output/styles/fonts.css",
-      "filter": {
-        "types": [
-          "font"
-        ]
-      },
-      "parsers": [
-        {
-          "name": "to-css-font-import",
-          "options": {
-            "formats": [
-              "woff",
-              "woff2"
-            ],
-            "fontsPath": "../fonts"
-          }
-        }
-      ]
-    },
-    {
-      "name": "Design Tokens / Import font files",
-      "path": "./output/fonts",
-      "filter": {
-        "types": [
-          "font"
-        ]
-      },
-      "parsers": [
-        {
-          "name": "convert-font",
-          "options": {
-            "formats": [
-              "woff",
-              "woff2"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "name": "Design Tokens / Vectors",
-      "path": "./output/vectors",
+      "name": "Assets / Vectors",
+      "path": "./output/assets/vectors",
       "filter": {
         "types": [
           "vector"
@@ -113,6 +54,26 @@
                 "pretty": true
               }
             }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Assets / Fonts",
+      "path": "./output/assets/fonts",
+      "filter": {
+        "types": [
+          "font"
+        ]
+      },
+      "parsers": [
+        {
+          "name": "convert-font",
+          "options": {
+            "formats": [
+              "woff",
+              "woff2"
+            ]
           }
         }
       ]
