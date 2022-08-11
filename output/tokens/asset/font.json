@@ -1,0 +1,53 @@
+{
+  "asset": {
+    "font": {
+      "graphikThSemibold": {
+        "name": { "value": "GraphikTH-Semibold" },
+        "woff": { "value": "../../assets/fonts/GraphikTH-Semibold.woff" },
+        "woff2": { "value": "../../assets/fonts/GraphikTH-Semibold.woff2" }
+      },
+      "graphikThRegular": {
+        "name": { "value": "GraphikTH-Regular" },
+        "woff": { "value": "../../assets/fonts/GraphikTH-Regular.woff" },
+        "woff2": { "value": "../../assets/fonts/GraphikTH-Regular.woff2" }
+      },
+      "graphikThMedium": {
+        "name": { "value": "GraphikTH-Medium" },
+        "woff": { "value": "../../assets/fonts/GraphikTH-Medium.woff" },
+        "woff2": { "value": "../../assets/fonts/GraphikTH-Medium.woff2" }
+      },
+      "graphikThBold": {
+        "name": { "value": "GraphikTH-Bold" },
+        "woff": { "value": "../../assets/fonts/GraphikTH-Bold.woff" },
+        "woff2": { "value": "../../assets/fonts/GraphikTH-Bold.woff2" }
+      },
+      "graphikThaiLoopSemibold": {
+        "name": { "value": "GraphikThaiLoop-Semibold" },
+        "woff": { "value": "../../assets/fonts/GraphikThaiLoop-Semibold.woff" },
+        "woff2": {
+          "value": "../../assets/fonts/GraphikThaiLoop-Semibold.woff2"
+        }
+      },
+      "graphikThaiLoopRegular": {
+        "name": { "value": "GraphikThaiLoop-Regular" },
+        "woff": { "value": "../../assets/fonts/GraphikThaiLoop-Regular.woff" },
+        "woff2": { "value": "../../assets/fonts/GraphikThaiLoop-Regular.woff2" }
+      },
+      "graphikThaiLoopMedium": {
+        "name": { "value": "GraphikThaiLoop-Medium" },
+        "woff": { "value": "../../assets/fonts/GraphikThaiLoop-Medium.woff" },
+        "woff2": { "value": "../../assets/fonts/GraphikThaiLoop-Medium.woff2" }
+      },
+      "dbHeaventMed": {
+        "name": { "value": "DBHeavent-Med" },
+        "woff": { "value": "../../assets/fonts/DBHeavent-Med.woff" },
+        "woff2": { "value": "../../assets/fonts/DBHeavent-Med.woff2" }
+      },
+      "dbHeavent": {
+        "name": { "value": "DBHeavent" },
+        "woff": { "value": "../../assets/fonts/DBHeavent.woff" },
+        "woff2": { "value": "../../assets/fonts/DBHeavent.woff2" }
+      }
+    }
+  }
+}
